@@ -1,11 +1,11 @@
 name: continuous-integration
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, synchronize]
+on: workflow_dispatch
+  # push:
+  #  branches:
+  #    - master
+  # pull_request:
+  #  types: [opened, synchronize]
 
 jobs:
   continuous-integration:
